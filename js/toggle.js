@@ -19,8 +19,6 @@ document.addEventListener("click", (event) => {
     nav_items.classList.contains("open") &&
     !event.target.type
   ) {
-    const cl = event.target.closest("#nav-icon");
-    console.log(cl);
     nav_items.classList.remove("open");
   }
 });
